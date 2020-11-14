@@ -2,13 +2,13 @@
 
 void other() {
 	printf("Top secret!\n");
-	printf("Slava was here!\n ");
+	printf("Slava was here!\n");
 	printf("Congratulations!\n");
     printf("You have entered in the secret function!\n");
 }
 
 void input() {
-	char buffer[30];
+	char buffer[15];
 	printf("Enter text:\n");
 	fflush(stdout);
 	scanf("%s", buffer);
